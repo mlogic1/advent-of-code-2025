@@ -84,6 +84,12 @@
         "vector": "cpp",
         "algorithm": "cpp",
         "thread": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "utility": "cpp",
+        "ranges": "cpp",
+        "text_encoding": "cpp"
     }
 }

@@ -16,7 +16,8 @@
 
 std::unordered_map<int, std::pair<std::string, std::string>(*)(const std::filesystem::path&)> all_days =
 {
-	{ 1, Day01::RunDay }
+	{ 1, Day01::RunDay },
+	{ 2, Day02::RunDay }
 };
 
 int main(int argc, const char* argv[])
@@ -26,7 +27,7 @@ int main(int argc, const char* argv[])
 	std::filesystem::path inputFile = argv[2];
 
 	assert (dayNr >= 1 && dayNr <= 12);
-	assert (!std::filesystem::exists(inputFile));
+	assert (std::filesystem::exists(inputFile));
 
 	auto result = all_days.at(dayNr)(inputFile);
 	std::cout << "Day " << dayNr << std::endl << "A: " << result.first << std::endl << "B: " << result.second << std::endl;

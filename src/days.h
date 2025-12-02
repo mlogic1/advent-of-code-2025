@@ -17,3 +17,8 @@ namespace Day01
 {
 	std::pair<std::string, std::string> RunDay(const std::filesystem::path& inputFile);
 }
+
+namespace Day02
+{
+	std::pair<std::string, std::string> RunDay(const std::filesystem::path& inputFile);
+}
