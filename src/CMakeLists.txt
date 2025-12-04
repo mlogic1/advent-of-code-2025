@@ -8,6 +8,7 @@ SET (SRC_FILES
 	day01.cpp
 	day02.cpp
 	day03.cpp
+	day04.cpp
 )
 
 ADD_LIBRARY(advent2025 SHARED ${SRC_FILES})
