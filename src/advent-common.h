@@ -29,6 +29,7 @@ using StringVector = vector<string>;
 using IntVector = vector<int>;
 using VecStack = std::vector<std::stack<char>>;
 using StringPair = std::pair<std::string, std::string>;
+using IntPair = std::pair<int, int>;
 
 namespace common
 {
