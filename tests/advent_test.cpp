@@ -22,6 +22,7 @@ std::unordered_map<int, std::pair<std::string, std::string>(*)(const std::filesy
 	{ 4, Day04::RunDay },
 	{ 5, Day05::RunDay },
 	{ 6, Day06::RunDay },
+	{ 7, Day07::RunDay },
 };
 
 int main(int argc, const char* argv[])
